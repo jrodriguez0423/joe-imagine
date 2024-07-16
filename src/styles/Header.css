@@ -1,0 +1,33 @@
+header.navbar {
+  background: linear-gradient(to right, #D77124, #ED9A2B); /* Keep the orange gradient */
+  padding: 10px 20px;
+}
+
+.navbar-brand img {
+  height: 50px; /* Adjust the height as needed */
+}
+
+.navbar-nav {
+  margin-left: auto; /* Align the navigation links to the right */
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-nav .nav-link.btn-login {
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+}
+
+.navbar-nav .nav-link.btn-login:hover {
+  background-color: #333;
+}

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=K2D:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+.home {
+  text-align: left;
+}
+
+.hero {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../homepage.png'); /* Update the path */
+  height: 90vh; /* Full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: left; /* Set to left align */
+  padding: 20px;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 4em;
+  margin: 0;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.hero p {
+  font-size: 1.5em;
+  margin: 10px 0;
+  font-family: 'K2D', sans-serif;
+  color: #CFCFCF;
+}
+
+.hero-buttons {
+  margin-top: 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Override Bootstrap button styles */
+.btn.hero-button {
+  background-color: #D77124 !important; /* Ensure the color is applied */
+  border: none;
+  color: white;
+}
+
+.btn.hero-button:hover {
+  background-color: #ED9A2B !important; /* Adjust hover color if desired */
+}
+
+.hero-button {
+  padding: 15px 30px;
+  font-size: 1em;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
