@@ -1,52 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 
-.info-section {
-  padding: 50px 20px;
-  background-color: #f8f9fa;
+
+
+.info-row1 {
+  margin-top: 3rem;
+
 }
 
-.info-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  margin-bottom: 20px;
+.info-row {
+  margin-top: 5rem;
 }
 
-.info-card {
-  background: white;
+.card {
+  border: none;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 0; /* Remove padding from the container */
-  flex: 1 1 calc(50% - 40px); /* Two columns layout */
-  width: 612px;
-  height: 350px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden; /* Ensure the image does not overflow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
 }
 
-.info-card img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px 8px 0 0; /* Ensure the image has rounded corners matching the container */
-  object-fit: cover; /* Ensures the image covers the container while maintaining its aspect ratio */
-  display: block; /* Ensures no extra margin or padding */
-}
-
-.info-card h2 {
-  font-family: 'Inter', sans-serif;
+.card-title {
+  font-family: 'Julius Sans One', sans-serif;
   font-size: 28px;
-  margin: 15px 0;
-  text-align: center; /* Center align the headings */
+  margin-bottom: -5px;
+  margin-top: 2rem;
+  text-align: center;
+  color: #D77124;
+  font-weight: 900;
 }
 
-.info-card p {
-  font-family: 'Inter', sans-serif;
-  font-size: 18px;
+.card-text {
+  font-family: 'K2D', sans-serif;
+  font-size: 1.2rem;
   color: #333;
-  text-align: center; /* Center align the text */
-  padding: 20px; /* Add padding to the text for better readability */
+  text-align: center;
+  padding: 20px;
+
+}
+
+.card-img-top {
+  border-radius: 8px 8px 0 0;
+  object-fit: cover;
+  height: 100%;
 }
