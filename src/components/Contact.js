@@ -1,47 +1,25 @@
-import React, { useState } from 'react';
+// src/components/Contact.js
+import React from 'react';
+import ContactPage from './ContactPage';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../styles/Contact.css';
 
-const Contact = () => {
-  const [formData, setFormData] = useState({
-    firstName: '',
-    lastName: '',
-    email: '',
-    message: ''
-  });
-
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Handle form submission logic
-  };
-
-  return (
-    <div>
-      <h1>Contact Us</h1>
-      <form onSubmit={handleSubmit}>
-        <label>
-          First name:
-          <input type="text" name="firstName" value={formData.firstName} onChange={handleChange} />
-        </label>
-        <label>
-          Last name:
-          <input type="text" name="lastName" value={formData.lastName} onChange={handleChange} />
-        </label>
-        <label>
-          Email address:
-          <input type="email" name="email" value={formData.email} onChange={handleChange} />
-        </label>
-        <label>
-          Your message:
-          <textarea name="message" value={formData.message} onChange={handleChange}></textarea>
-        </label>
-        <button type="submit">Send Message</button>
-      </form>
+const Contact = () => (
+  <div className="contact-container">
+    <div className="contact-form-wrapper">
+      <ContactPage />
     </div>
-  );
-};
+    <div className="contact-map">
+      <iframe
+        title="map"
+        src="https://www.google.com/maps/embed/v1/place?q=255+El+Camino+Real,+Burlingame,+CA+94010&key=AIzaSyD6wSGBrGf_lNK_EdMz-U131TXRIpaVxjs"
+        width="600"
+        height="450"
+        allowFullScreen=""
+        loading="lazy"
+      ></iframe>
+    </div>
+  </div>
+);
 
 export default Contact;

@@ -1,5 +1,5 @@
 .contact-form-container {
-  padding: 40px;
+  padding: 50px; /* Chose 50px from the remote branch */
   background: linear-gradient(135deg, #d97706, #d77124); /* Adjust gradient as needed */
   color: white;
   font-family: 'Inter', sans-serif;
@@ -10,13 +10,14 @@
 }
 
 .form-content h2 {
-  font-size: 2em;
-  font-weight: bold;
+  font-size: 2em; /* Merged value */
+  font-weight: bold; /* Merged value */
   color: black; /* Adjust as needed */
+  font-family: 'Julius Sans One', sans-serif; /* Chose 'Julius Sans One' from the remote branch */
 }
 
 .form-content p {
-  font-size: 1.2em;
+  font-size: 1.2em; /* Chose 1.2em from your branch */
   color: white; /* Adjust as needed */
 }
 
@@ -49,6 +50,7 @@
   border-radius: 5px;
   cursor: pointer;
   font-size: 1.2em;
+  font-weight: bold; /* Merged value */
   transition: background-color 0.3s ease;
 }
 

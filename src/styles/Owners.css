@@ -1,0 +1,56 @@
+/* src/styles/Owners.css */
+.owners-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .owner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0;
+    width: 80%; /* Adjust width as needed */
+  }
+  
+  .owner-details {
+    flex: 2; /* Make text box wider */
+    padding: 20px;
+    font-size: 1.2em; /* Increase text size */
+  }
+  
+  .owner-image {
+    flex: 1; /* Make image take up less space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .owner-image img {
+    width: auto;
+    height: 300px; /* Make images more portrait-like */
+    border-radius: 10px;
+  }
+  
+  .owner h2 {
+    margin-top: 0;
+    font-size: 1.5em; /* Increase heading size */
+  }
+  
+  @media (max-width: 768px) {
+    .owner {
+      flex-direction: column;
+    }
+  
+    .owner-details,
+    .owner-image {
+      padding: 10px;
+    }
+  
+    .owner-image img {
+      width: auto;
+      height: 250px; /* Adjust for smaller screens */
+    }
+  }
+  

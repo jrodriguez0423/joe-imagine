@@ -1,0 +1,72 @@
+/* src/styles/ContactPage.css */
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .contact-page-wrapper {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .contact-page-container {
+    background: lightgray; /* Remove background */
+    color: black;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .page-content {
+    padding: 20px;
+  }
+  
+  .page-content h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+    font-family: 'Julius Sans One', sans-serif;
+  }
+  
+  .page-content p {
+    font-size: 1.2em;
+    color: gray; /* Adjust color as needed */
+  }
+  
+  .contact-page .page-group {
+    margin-bottom: 15px;
+  }
+  
+  .contact-page .page-group label {
+    margin-bottom: 5px;
+    color: black;
+  }
+  
+  .contact-page .page-control {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .contact-page .page-control::placeholder {
+    color: #999;
+  }
+  
+  .contact-page .btn-submit {
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-page .btn-submit:hover {
+    background-color: #333;
+  }
+  
+  

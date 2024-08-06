@@ -1,0 +1,14 @@
+/* src/components/OwnersBar.css */
+.owners-bar {
+    background: linear-gradient(90deg, #d97706, #e07b1f); /* Adjust gradient as needed */
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .owners-bar h2 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  
