@@ -1,6 +1,6 @@
 .contact-form-container {
   padding: 50px; /* Chose 50px from the remote branch */
-  background: linear-gradient(135deg, #d97706, #d77124); /* Adjust gradient as needed */
+  background: linear-gradient(to right, #D77124, #ED9A2B); /* Orange gradient */
   color: white;
   font-family: 'Inter', sans-serif;
 }

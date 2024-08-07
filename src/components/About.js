@@ -7,7 +7,7 @@ import Owners from './Owners';
 
 const About = () => (
   <div className="home">
-    <div className="hero" style={{ backgroundImage: `url(${backgroundImage})` }}>
+    <div className="hero2" style={{ backgroundImage: `url(${backgroundImage})` }}>
     </div>
     <div className="main-content">
       <AboutSection /> {/* Add the InfoSection component here */}

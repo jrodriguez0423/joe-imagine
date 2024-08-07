@@ -1,15 +1,39 @@
 .services-hero {
-  background: url('../images/services.png') no-repeat center center;
+  background: url('../images/services.jpg') no-repeat center center;
   background-size: cover;
   padding: 100px 0;
-  height: 90vh;
+  height: 60vh;
   text-align: center;
   color: white;
 }
 
+
+.services-hero::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+  z-index: 1;
+  margin-top: 80px;
+}
+
 .services-hero h1 {
-  font-size: 3em;
+  color: white;
+  font-size: 4em;
   margin: 0;
+  font-weight: 800;
+  font-family: 'Julius Sans One', sans-serif;
+  margin-top: 360px;
+}
+
+
+.hero-content {
+  position: relative;
+  z-index: 2; /* Ensures content is above the overlay */
+  color: white; /* Ensure the text color is white */
 }
 
 .services-content {
@@ -27,7 +51,8 @@
 }
 
 .service-icon {
-  max-width: 100px;
+  font-size: 3em;
+  color: #d97706; /* Adjust the color as needed */
   margin-bottom: 15px;
 }
 
