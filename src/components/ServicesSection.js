@@ -22,7 +22,7 @@ const ServicesSection = () => (
               <FontAwesomeIcon icon={faUserNurse} className="service-icon text-primary mb-4" />
               <h3 className="h2 mb-4">Fully Trained In-Home Caregivers/Sitters</h3>
               <p className="mb-4 text-secondary">Our fully trained in-home caregivers and sitters provide comprehensive assistance for daily living tasks, ensuring your loved ones receive the best care possible.</p>
-              <a href="#!" className="fw-bold text-decoration-none link-primary">
+              <a href="#!" className="fw-bold text-decoration-none link-primary serv-section1">
                 Learn More
                 <FontAwesomeIcon icon={faArrowRight} className="ms-2" />
               </a>
@@ -35,7 +35,7 @@ const ServicesSection = () => (
               <FontAwesomeIcon icon={faHandHoldingHeart} className="service-icon text-primary mb-4" />
               <h3 className="h2 mb-4">Complete Assistance in Daily Living/Task</h3>
               <p className="mb-4 text-secondary">We provide complete assistance in daily living tasks, helping you maintain your independence and quality of life.</p>
-              <a href="#!" className="fw-bold text-decoration-none link-primary">
+              <a href="#!" className="fw-bold text-decoration-none link-primary serv-section1">
                 Learn More
                 <FontAwesomeIcon icon={faArrowRight} className="ms-2" />
               </a>

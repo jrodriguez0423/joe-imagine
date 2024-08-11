@@ -1,0 +1,64 @@
+/* General Styles for the App */
+.App {
+  text-align: center;
+  max-width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Logo Styles */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Animation for the Logo */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Header Styles */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  box-sizing: border-box; /* Include padding and border in width/height */
+  overflow-x: hidden;
+}
+
+/* Link Styles */
+.App-link {
+  color: #61dafb;
+}
+
+/* Global Styling to Prevent Horizontal Scrolling */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* Ensure no horizontal scrolling */
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box; /* Apply box-sizing to all elements */
+}

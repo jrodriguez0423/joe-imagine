@@ -9,30 +9,30 @@ const InfoSection = () => (
   <div className="info-section py-5">
     <Container>
       <Row className="info-row mb-4">
-        <Col md={6}>
-          <Card className="h-100">
+        <Col md={12} lg={6}>
+          <Card className="h-100 info-2">
             <Card.Body>
-              <Card.Title>Welcome to Imagine Seniorcare Inc!</Card.Title>
+              <Card.Title>Welcome to <br></br>Imagine Seniorcare Inc!</Card.Title>
               <Card.Text>
                 At Imagine Senior Care, we are dedicated to providing compassionate and personalized care for your loved ones. Our team of fully trained professionals is committed to ensuring that every resident receives the highest level of support, assistance, and resources. We understand the unique needs of seniors and their families, and we strive to create a warm and welcoming environment where everyone feels at home. Our services are designed to enhance the quality of life for our residents, offering peace of mind to their families.
               </Card.Text>
             </Card.Body>
           </Card>
         </Col>
-        <Col md={6}>
-          <Card className="h-100">
+        <Col md={12} lg={6}>
+          <Card className="h-100 info-img">
             <Card.Img variant="top" src={image1} alt="Our Team" />
           </Card>
         </Col>
       </Row>
       <Row className="info-row">
-        <Col md={6}>
-          <Card className="h-100">
+        <Col md={12} lg={6} className="order-lg-1 order-md-2 order-2">
+          <Card className="h-100 info-img1">
             <Card.Img variant="top" src={image2} alt="Our Services" />
           </Card>
         </Col>
-        <Col md={6}>
-          <Card className="h-100">
+        <Col md={12} lg={6} className="order-lg-2 order-md-1 order-1">
+          <Card className="h-100 info-1">
             <Card.Body>
               <Card.Title>Our Mission</Card.Title>
               <Card.Text>

@@ -10,7 +10,7 @@ const Home = () => (
   <div className="home">
     <div className="hero" style={{ backgroundImage: `url(${backgroundImage})` }}>
       <div className="overlay"></div>
-      <div className="hero-content text-left">
+      <div className="hero-content-home text-left">
         <h1>IMAGINE SENIORCARE INC</h1>
         <p>Where Your Loved Ones are Cherished, Respected, and Thriving Every Day</p>
         <div className="hero-buttons">

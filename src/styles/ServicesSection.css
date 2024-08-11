@@ -37,7 +37,7 @@
 
 .services-header {
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 2rem;
+  font-size: 2.3rem;
   margin-bottom: -5px;
   margin-top: 2rem;
   text-align: center;
@@ -47,6 +47,11 @@
 
 .link-primary {
   color: #D77124 !important;
+}
+
+.serv-section1 {
+  font-family: 'K2D', sans-serif;
+font-size: large;
 }
 
 .link-primary:hover {

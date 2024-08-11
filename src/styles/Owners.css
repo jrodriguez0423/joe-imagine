@@ -5,7 +5,7 @@
     align-items: center;
     padding: 20px;
   }
-  
+
   .owner {
     display: flex;
     flex-direction: row;
@@ -17,7 +17,8 @@
   .owner-details {
     flex: 2; /* Make text box wider */
     padding: 20px;
-    font-size: 1.2em; /* Increase text size */
+    font-size: 1.2rem; /* Increase text size */
+    font-family: 'K2D', sans-serif;
   }
   
   .owner-image {
@@ -29,13 +30,16 @@
   
   .owner-image img {
     width: auto;
-    height: 300px; /* Make images more portrait-like */
+    height: 350px; /* Make images more portrait-like */
     border-radius: 10px;
+    border: solid 3px #d97706;
   }
   
   .owner h2 {
     margin-top: 0;
-    font-size: 1.5em; /* Increase heading size */
+    font-size: 2em; /* Increase heading size */
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 900;
   }
   
   @media (max-width: 768px) {

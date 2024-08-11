@@ -1,14 +1,18 @@
 /* src/components/OwnersBar.css */
 .owners-bar {
     background: linear-gradient(90deg, #d97706, #e07b1f); /* Adjust gradient as needed */
-    padding: 20px;
-    text-align: center;
+    padding: 30px;
+    text-align: left;
     color: white;
+    margin-top: 1rem;
   }
   
   .owners-bar h2 {
     margin: 0;
-    font-size: 2em;
+    font-size: 3rem;
+    margin-left: 4rem;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 900;
   }
   
   

@@ -20,10 +20,16 @@ const ContactPage = () => (
         </Col>
       </Row>
       <Row>
-        <Col xs={12} className="mb-3">
+        <Col xs={12} md={6} className="mb-3">
           <Form.Group>
             <Form.Label htmlFor="email">Email address</Form.Label>
             <Form.Control type="email" id="email" name="email" placeholder="janedoe@email.com" />
+          </Form.Group>
+        </Col>
+        <Col xs={12} md={6} className="mb-3">
+          <Form.Group>
+            <Form.Label htmlFor="subject">Subject</Form.Label>
+            <Form.Control type="text" id="subject" name="subject" placeholder="Enter subject" />
           </Form.Group>
         </Col>
       </Row>
