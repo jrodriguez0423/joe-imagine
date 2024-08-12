@@ -1,18 +1,4 @@
 
-
-.services-hero h1 {
-  color: white;
-  font-size: 4em;
-  margin: 0;
-  font-weight: 800;
-  font-family: 'Julius Sans One', sans-serif;
-}
-
-
-.services-content {
-  margin-top: 4rem;
-}
-
 .serv-marg {
   margin-top: 3rem;
 }
@@ -27,7 +13,7 @@
 
 .faq-services {
     font-family: 'Julius Sans One', sans-serif;
-    font-size: 2rem;
+    font-size: 2.3rem;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
     text-align: center;
@@ -56,7 +42,7 @@
 }
 
 .service-item h3 {
-  font-size: 1.5em;
+  font-size: 2.3rem;
   margin-bottom: 10px;
   text-align: left !important;
 }
@@ -156,7 +142,7 @@
 @media (max-width: 550px) {
 
   .about-serv-head {
-    font-size: 3rem !important;
+    font-size: 2.3rem !important;
   }
 }
 
@@ -170,3 +156,8 @@
   }
 }
 
+@media (max-width: 992px) {
+  .img-card {
+    margin-top: 2rem; /* Add margin above each image card on screens smaller than 992px */
+  }
+}

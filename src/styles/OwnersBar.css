@@ -1,18 +1,50 @@
 /* src/components/OwnersBar.css */
 .owners-bar {
-    background: linear-gradient(90deg, #d97706, #e07b1f); /* Adjust gradient as needed */
-    padding: 30px;
-    text-align: left;
-    color: white;
-    margin-top: 1rem;
-  }
-  
+  background: linear-gradient(90deg, #d97706, #e07b1f); /* Adjust gradient as needed */
+  padding: 30px;
+  text-align: left;
+  color: white;
+  margin-top: 1rem;
+}
+
+.owners-bar h2 {
+  margin: 0;
+  font-size: 3rem;
+  margin-left: 4rem;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 900;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 992px) {
   .owners-bar h2 {
-    margin: 0;
-    font-size: 3rem;
-    margin-left: 4rem;
-    font-family: 'Julius Sans One', sans-serif;
-    font-weight: 900;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+  }
+
+  .owners-bar {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .owners-bar h2 {
+    font-size: 2rem;
+    margin-left: 1.5rem;
+  }
+
+  .owners-bar {
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .owners-bar h2 {
+    font-size: 2rem;
+    margin-left: 0rem;
+  }
+  .owners-bar {
+    padding: 25px;
   }
   
-  
+}

@@ -1,83 +1,71 @@
-.footer {
-  background: linear-gradient(to right, #D77124, #ED9A2B); /* Orange gradient */
-  color: white;
-  padding: 20px;
-  position: relative;
-  width: 100%;
-  bottom: 0;
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+
+.footer-container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #f3f6fd;
 }
 
-.footer-content {
-  display: flex;
-  flex-direction: row; /* Change to row for horizontal layout */
-  justify-content: space-between; /* Space out the content horizontally */
-  align-items: flex-start; /* Align items to the start for vertical alignment */
-  text-align: center;
-  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+.footer-logo {
+    width: 150px; /* Adjust this value to make the logo larger */
+    height: auto; /* Maintain aspect ratio */
 }
 
-.footer-logo img {
-  max-width: 150px; /* Adjust as needed */
+.contact-us-column {
+    margin-left: auto; /* Pushes the column to the right */
+    padding-right: 60px; /* Increase padding to move it further right */
+    text-align: left; /* Align content to the left */
 }
 
-.footer-info {
-  margin: 0 10px; /* Reduce horizontal margin */
-  text-align: left; /* Align text to the left */
+.footer-card {
+    width: 100%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(to right, #D77124, #ED9A2B); /* Orange gradient */
+    color: white;
 }
 
-.footer-links ul {
-  list-style: none;
-  padding: 0;
-  margin: 0; /* Remove default margin */
-  display: flex;
-  flex-direction: column; /* Align items vertically */
-  gap: 5px; /* Reduce space between items */
-  text-align: left; /* Align text to the left */
-  padding-left: 10px; /* Add left padding */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.footer-links ul li {
-  cursor: pointer;
+ul > li {
+    padding: 4px;
+    color: #C5CAE9;
 }
 
-.footer-social {
-  margin-left: 10px; /* Reduce left margin */
-  padding-right: 10px; /* Reduce right padding */
-  text-align: left;
+ul > li:hover {
+    color: #ED9A2B; /* Match your footer color scheme */
+    cursor: pointer;
 }
 
-.follow-us-header {
-  text-align: center; /* Center the Follow Us header */
+hr {
+    border-width: 3px;
 }
 
-.social-icons {
-  display: flex;
-  flex-direction: column; /* Arrange icons vertically */
-  gap: 5px;
-  align-items: flex-start; /* Align items to the left */
+.social > a {
+    padding: 1%;
+    font-size: 24px;
+    color: #ffffff;
+    margin-right: 10px;
+    text-decoration: none;
 }
 
-.social-icons a {
-  color: white;
-  text-decoration: none;
+.social > a:hover {
+    color: #ED9A2B; /* Match your footer color scheme */
+    cursor: pointer;
 }
 
-.social-icons a:hover {
-  text-decoration: underline;
+.heading {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
 }
 
-/* Adjustments for smaller screens */
-@media (max-width: 768px) {
-  .footer-content {
-    flex-direction: column; /* Stack vertically on smaller screens */
-    align-items: center;
-  }
-
-  .footer-info, .footer-links, .footer-social {
-    margin-bottom: 10px; /* Reduce vertical spacing */
-  }
-
-  .footer-info, .footer-social {
-    text-align: center; /* Center text on smaller screens */
-  }
+.divider {
+    border-top: 2px solid white;
 }

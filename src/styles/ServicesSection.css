@@ -37,9 +37,9 @@
 
 .services-header {
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 2.3rem;
+  font-size: 2.5rem;
   margin-bottom: -5px;
-  margin-top: 2rem;
+  margin-top: 1rem;
   text-align: center;
   color: #D77124;
   font-weight: 900;
@@ -85,4 +85,10 @@ font-size: large;
   background-color: #ffffff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transform: scale(1.05);
+}
+
+@media (max-width:992px) {
+  .services-header {
+    margin-top: 4rem ;
+  }
 }

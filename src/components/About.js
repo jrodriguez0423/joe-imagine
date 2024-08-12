@@ -1,21 +1,20 @@
 import React from 'react';
+import { Container } from 'react-bootstrap'; // Import Container from react-bootstrap
 import '../styles/About.css';
-import backgroundImage from '../images/about.jpg'; // Update this path
-import AboutSection from './AboutSection'; // Import the InfoSection component
+import AboutSection from './AboutSection';
 import OwnersBar from './OwnersBar';
 import Owners from './Owners';
+// Remove the unused backgroundImage import
+// import backgroundImage from '../images/about.jpg'; // Remove this line if not used
 
 const About = () => (
-  <div className="home">
-    <div className="hero2" style={{ backgroundImage: `url(${backgroundImage})` }}>
-      <div className="overlay"></div> {/* Add the overlay here */}
-      <div className="hero-content-about-services"> {/* Add your hero content here */}
-        <h1 className='about-serv-head'>About Us</h1>
-        <p>Let us care for your loved one</p>
-      </div>
-    </div>
+  <div className="contact-container">
+    <Container fluid className="contact-header text-center">
+      <h1 className="display-4">About Us</h1>
+      <p className="contact-jumbo">Let us care for your loved one</p>
+    </Container>
     <div className="main-content">
-      <AboutSection /> {/* Add the InfoSection component here */}
+      <AboutSection />
       <OwnersBar />
       <Owners />
     </div>

@@ -1,60 +1,77 @@
-/* src/styles/Owners.css */
 .owners-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.owner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 0;
+  width: 80%; /* Adjust width as needed */
+}
+
+.owner-details {
+  flex: 2; /* Make text box wider */
+  padding: 20px;
+  font-size: 1.2rem; /* Increase text size */
+  font-family: 'K2D', sans-serif;
+}
+
+.owner-image {
+  flex: 1; /* Make image take up less space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.owner-image img {
+  width: auto;
+  height: 350px; /* Make images more portrait-like */
+  border-radius: 10px;
+  border: solid 3px #d97706;
+}
+
+.owner h2 {
+  margin-top: 0;
+  font-size: 2rem; /* Increase heading size */
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 900;
+}
+
+/* For screens 992px or smaller */
+@media (max-width: 992px) {
+  .owner {
+    flex-direction: column; /* Stack items vertically */
   }
 
-  .owner {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 20px 0;
-    width: 80%; /* Adjust width as needed */
-  }
-  
   .owner-details {
-    flex: 2; /* Make text box wider */
-    padding: 20px;
-    font-size: 1.2rem; /* Increase text size */
-    font-family: 'K2D', sans-serif;
+    order: 1; /* Ensure text is above the image */
   }
-  
+
   .owner-image {
-    flex: 1; /* Make image take up less space */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    order: 2; /* Ensure image is below the text */
   }
   
   .owner-image img {
-    width: auto;
-    height: 350px; /* Make images more portrait-like */
-    border-radius: 10px;
-    border: solid 3px #d97706;
+    height: 300px; /* Adjust for medium screens */
+  }
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+  .owner {
+    flex-direction: column;
   }
   
-  .owner h2 {
-    margin-top: 0;
-    font-size: 2em; /* Increase heading size */
-    font-family: 'Julius Sans One', sans-serif;
-    font-weight: 900;
+  .owner-details,
+  .owner-image {
+    padding: 10px;
   }
   
-  @media (max-width: 768px) {
-    .owner {
-      flex-direction: column;
-    }
-  
-    .owner-details,
-    .owner-image {
-      padding: 10px;
-    }
-  
-    .owner-image img {
-      width: auto;
-      height: 250px; /* Adjust for smaller screens */
-    }
+  .owner-image img {
+    height: 250px; /* Adjust for smaller screens */
   }
-  
+}

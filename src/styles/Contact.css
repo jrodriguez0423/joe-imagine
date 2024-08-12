@@ -1,11 +1,27 @@
 .contact-container {
   padding: 0;
+  position: relative;
+}
+
+.contact-page1 {
+  margin-top: 3rem !important;
+  margin-bottom: 5rem !important;
 }
 
 .contact-header {
   background: linear-gradient(to right, #D77124, #ED9A2B); /* Keep the orange gradient */
-  padding: 2rem 1rem;
-  margin-bottom: 4rem !important;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  padding-bottom: 5% !important; /* Push the content 10% above the bottom */
+}
+
+.contact-header h1, 
+.contact-header p {
+  margin: 0;
 }
 
 .contact-jumbo {
@@ -16,14 +32,14 @@
 }
 
 .form-title {
-  font-size: 2rem;
+  font-size: 2.5rem !important;
   color: rgb(0, 0, 0);
   font-family: 'Julius Sans One', sans-serif;
   font-weight: 800;
 }
 
 .contact-header .display-4 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: white;
   font-family: 'Julius Sans One', sans-serif;
   font-weight: 800;
@@ -46,7 +62,7 @@
   margin-bottom: 1.5rem;
   text-align: center;
   font-weight: 600;
-  color: #333;
+  color: #d97706;
 }
 
 .contact-map {
@@ -79,27 +95,37 @@
   pointer-events: none;
 }
 
-.follow-us {
-  margin-top: 40px;
+
+
+
+
+@media  (max-width: 992px) {
+  .contact-header {
+    height: 20vh;
+
+  }
+
+  
 }
 
-.follow-us h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
+@media  (max-width: 768px) {
+
+
+  .contact-header .display-4 {
+    font-size: 3rem;
+    
+  }
 }
 
-.social-icons {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-}
+@media  (max-width: 550px) {
 
-.socials-icon {
-  font-size: 2.5rem;
-  color: #333;
-  transition: color 0.3s ease;
-}
 
-.socials-icon:hover {
-  color: #d97706;
+  .contact-header .display-4 {
+    font-size: 2.5rem;
+    
+  }
+  .contact-header {
+    padding-bottom: 8% !important; /* Push the content 10% above the bottom */
+
+  }
 }

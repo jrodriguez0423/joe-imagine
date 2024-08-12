@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 
-
-
 .info-row1 {
   margin-top: 3rem;
-
 }
 
 .info-row {
-  margin-top: 2rem;
+  margin-top: 0rem;
+}
+
+@media (max-width: 991.98px) {
+  .img-card {
+    margin-top: 2rem; /* Add margin above each image card on screens smaller than 992px */
+  }
 }
 
 .card {
@@ -18,10 +21,9 @@
   overflow: hidden;
 }
 
-  .about-head {
-    font-size: 2.5rem;
-  
-  }
+.about-head {
+  font-size: 2.5rem;
+}
 
 .card-text {
   font-family: 'K2D', sans-serif;
@@ -29,7 +31,6 @@
   color: #333;
   text-align: center;
   padding: 20px;
-
 }
 
 .card-img-top {

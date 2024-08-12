@@ -11,12 +11,12 @@ const Contact = () => (
     </Container>
 
     <Container id="contact-form" className="my-5">
-      <Row>
-        <Col lg={6} className="contact-form-wrapper">
+      <Row className='contact-page1'>
+        <Col md={12} lg={6} className="contact-form-wrapper">
           <h2 className="form-title">Get in Touch</h2>
           <ContactPage />
         </Col>
-        <Col lg={6} className="contact-map">
+        <Col md={12} lg={6} className="contact-map">
           <div className="map-container">
             <iframe
               title="map"

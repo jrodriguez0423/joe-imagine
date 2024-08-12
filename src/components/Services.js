@@ -3,24 +3,20 @@ import { Container, Row, Col, Card, Button, Accordion } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHandsHelping, faHandHoldingHeart, faAmbulance } from '@fortawesome/free-solid-svg-icons';
 import '../styles/Services.css';
-import servicebgimg from '../images/services.jpg';
 import handsImg from '../images/hands.jpg';
 import heartsImg from '../images/heart.jpg';
 import transportImg from '../images/transport.jpg';
 
 const Services = () => (
-  <div className="home">
-    <div className="hero2" style={{ backgroundImage: `url(${servicebgimg})` }}>
-      <div className="overlay"></div>
-      <div className="hero-content-about-services">
-        <h1 className='about-serv-head'>Our Services</h1>
-        <p>Let us care for your loved one</p>
-      </div>
-    </div>
+  <div className="contact-container">
+    <Container fluid className="contact-header text-center">
+      <h1 className="display-4">Our Services</h1>
+      <p className="contact-jumbo">Let us care for your loved one</p>
+    </Container>
 
     <Container className="services-content">
       <Row className="align-items-center mb-4 serv-marg">
-        <Col md={12} lg={6} className="order-lg-1 order-md-2">
+        <Col md={12} lg={6} className="order-lg-1 order-md-2 img-card">
           <img src={handsImg} alt="Service 1" className="img-fluid serv-img" />
         </Col>
         <Col md={12} lg={6} className="order-lg-2 order-md-1">
@@ -38,7 +34,7 @@ const Services = () => (
       </Row>
 
       <Row className="align-items-center mb-4">
-        <Col md={12} lg={6} className="order-lg-2 order-md-2">
+        <Col md={12} lg={6} className="order-lg-2 order-md-2 img-card">
           <img src={heartsImg} alt="Service 2" className="img-fluid serv-img" />
         </Col>
         <Col md={12} lg={6} className="order-lg-1 order-md-1">
@@ -56,7 +52,7 @@ const Services = () => (
       </Row>
 
       <Row className="align-items-center mb-4">
-        <Col md={12} lg={6} className="order-lg-1 order-md-2">
+        <Col md={12} lg={6} className="order-lg-1 order-md-2 img-card">
           <img src={transportImg} alt="Service 3" className="img-fluid serv-img" />
         </Col>
         <Col md={12} lg={6} className="order-lg-2 order-md-1">

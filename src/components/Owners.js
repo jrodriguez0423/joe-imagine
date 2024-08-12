@@ -11,7 +11,10 @@ const Owners = () => {
         <div className="owner-details">
           <h2>Joe Kitchura - CEO</h2>
           <p>
-            Joe, the Founder and CEO of Imagine Senior Care Inc., brings over two decades of experience in the senior care industry. His journey began with a volunteer stint at a local nursing home during his college years, which sparked his passion for elder care. His leadership and dedication to excellence have established Imagine Senior Care as a trusted community name. Joe believes in a hands-on approach, frequently visiting the facility to ensure the highest standards of care. Under his guidance, Imagine Senior Care Inc. has become a place where seniors receive personalized care and families find peace of mind. He is committed to compassion, integrity, and innovation, driving the mission of Imagine Senior Care Inc. forward.
+          With over 25 years of experience in program management, I bring a wealth of expertise in overseeing large-scale software projects across diverse industries, including high-tech, aerospace, and pharmaceuticals. My career has been marked by a proven ability to manage engineering teams effectively, ensuring the timely delivery of market-ready products while maintaining high standards of quality.
+Throughout my career, I have excelled in various roles such as planner, scheduler, and program manager, leveraging my skills to guide projects from inception to completion. My experience includes providing insightful statistics and strategic guidance to senior executives, ensuring alignment with organizational goals.
+I have also played a pivotal role in proposal development, crafting compelling strategies to attract potential clients and drive business growth. As the CEO of Imagine Seniorcare Inc., I continue to apply my leadership and project management expertise to innovate and enhance senior care solutions.
+ forward.
           </p>
         </div>
         <div className="owner-image">
@@ -25,7 +28,9 @@ const Owners = () => {
         <div className="owner-details">
           <h2>Nida Kitchura - CFO</h2>
           <p>
-            Nida, the CFO of Imagine Senior Care Inc., brings over two decades of experience in the senior care industry. Her journey began with a volunteer stint at a local nursing home during her college years, which sparked her passion for elder care. Her leadership and dedication to excellence have established Imagine Senior Care as a trusted community name. Nida believes in a hands-on approach, frequently visiting the facility to ensure the highest standards of care. Under her guidance, Imagine Senior Care Inc. has become a place where seniors receive personalized care and families find peace of mind. She is committed to compassion, integrity, and innovation, driving the mission of Imagine Senior Care Inc. forward.
+          Passionate and dedicated co - founder of Imagine
+Senior Care with almost a decade of experience in providing compassionate and professional in-home care services.
+Specializing in creating personalized care plans to meet the unique needs of each client. Proven and trusted in the field of healthcare. Ensuring compliance with healthcare regulations and maintaning exceptional standards of care. Commited to enhancing the quality of life of the clients and supporting families through tailored and I reliable care solutions. forward.
           </p>
         </div>
       </div>
